@@ -1,6 +1,6 @@
 <?php
     // recibimos el ID a eliminar desde la URL
-    $idAEliminar = $_GET['id'];
+    $idAEliminar = $_GET['id']; 
     $archivo = 'usuarios.csv';
 
     // recorremos el archivo y nos quedamos solo con las líneas que NO coincidan

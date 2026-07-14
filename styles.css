@@ -61,3 +61,44 @@
     font-family: Arial, sans-serif;
     color: #2d7d46;
 }
+
+
+.btn-editar {
+    color: #2d7d46;
+    font-size: 13px;
+    text-decoration: none;
+    margin-right: 8px;
+}
+
+.btn-editar:hover {
+    text-decoration: underline;
+}
+
+.btn-eliminar {
+    color: #c0392b;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.btn-eliminar:hover {
+    text-decoration: underline;
+}
+
+.tabla-usuarios {
+    width: 90%;
+    max-width: 500px;
+    margin: 20px auto;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+}
+
+.tabla-usuarios th,
+.tabla-usuarios td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+.tabla-usuarios th {
+    background-color: #f2f2f2;
+}
